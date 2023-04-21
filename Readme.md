@@ -1,0 +1,7 @@
+# Motivation:
+
+When it comes to upgrading a blockchain, it is crucial to ensure that it can handle the expected load before rolling out the new version to production. Otherwise, scaling issues and potential downtime can occur, leading to significant losses for businesses and organizations. Therefore, it is essential to have a reliable tool that can benchmark a blockchain section and provide valuable insights into its performance under stress conditions.
+
+Our benchmarking tool offers a comprehensive solution for running end-to-end tests on your blockchain, simulating a high volume of transactions and measuring its transaction latency and throughput. By doing so, you can identify potential bottlenecks and performance issues before deploying the new version to production. Additionally, you can use the tool to monitor the blockchain's performance during the upgrade process to detect any scaling problems.
+
+With our benchmarking tool, you can feel confident that your blockchain can handle the expected load and that you are making an informed decision about upgrading to a new version. Don't leave your blockchain's performance to chance. Use our benchmarking tool to ensure that your blockchain can handle the stress of production and scale smoothly during upgrades.

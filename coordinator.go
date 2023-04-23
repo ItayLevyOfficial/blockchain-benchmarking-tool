@@ -4,3 +4,4 @@ It will wait for the specified number of workers to connect and then begin the t
 distributing the specified rate between them. When measuring latency, it will also start the latency sampler
 and give him a small sample of the rate.
 */
+package main

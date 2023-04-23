@@ -30,4 +30,3 @@ When the expected number of workers gets connected to the coordinator, it will s
     total_txs,9000,count
     avg_tx_rate,899.818398,transactions per second
     avg_latency,1.2,seconds 
-    avg

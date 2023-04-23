@@ -14,7 +14,8 @@ The tool can run alone (with one client) or with multiple. To run the tool with 
 ## Instructions
 
 To use the tool in standalone mode, run it with the following:
-blockchain-load-test -r 1000 --endpoints ws://tm-endpoint1.somewhere.com:26657/websocket
+
+    blockchain-load-test -r 1000 --endpoints ws://tm-endpoint1.somewhere.com:26657/websocket
 Where -r specifies the desired transactions rate per second & the endpoints are a comma-separated list of endpoints to the blockchain. To run the tool with multiple clients, run one coordinator with the test configuration:
 
     blockchain-load-test coordinator --bind localhost:26670 --expect-workers 2 -r 1000 --endpoints ws://tm-endpoint1.somewhere.com:26657/websocket
@@ -23,9 +24,10 @@ And on each worker machine:
     # tell the worker where to find the coordinator - it will determine the rest.
     blockchain-load-test worker --coordinator localhost:26670
 When the expected number of workers gets connected to the coordinator, it will start the test and output the results in the format:
-Parameter,Value,Units
-total_time,10.002,seconds
-total_txs,9000,count
-avg_tx_rate,899.818398,transactions per second
-avg_latency,1.2,seconds 
-avg
+
+    Parameter,Value,Units
+    total_time,10.002,seconds
+    total_txs,9000,count
+    avg_tx_rate,899.818398,transactions per second
+    avg_latency,1.2,seconds 
+    avg
